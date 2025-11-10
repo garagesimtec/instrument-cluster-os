@@ -1,0 +1,17 @@
+[Unit]
+Description=instrument-cluster
+After=systemd-udevd.service
+Wants=systemd-udevd.service
+
+[Service]
+Type=simple
+Environment=SDL_VIDEODRIVER=kmsdrm
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/instrument-cluster
+Restart=always
+RestartSec=7
+# Optional working dir
+#WorkingDirectory=/usr/share/instrument-cluster
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,6 @@
+config BR2_PACKAGE_LG
+	bool "lg (liblgpio/rgpio)"
+	help
+	  C GPIO library from abyz.me.uk (lg archive).
+	  Provides liblgpio (local) and librgpio/rgpiod (remote).
+	  Required by python-lgpio and rpi-lgpio shims.

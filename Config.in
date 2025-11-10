@@ -1,0 +1,7 @@
+source "$BR2_EXTERNAL_INSTRUMENT_CLUSTER_OS_PATH/package/brcmfmac-firmware/Config.in"
+source "$BR2_EXTERNAL_INSTRUMENT_CLUSTER_OS_PATH/package/python-instrument-cluster/Config.in"
+source "$BR2_EXTERNAL_INSTRUMENT_CLUSTER_OS_PATH/package/python-pygame-261/Config.in"
+source "$BR2_EXTERNAL_INSTRUMENT_CLUSTER_OS_PATH/package/python-blinkt/Config.in"
+source "$BR2_EXTERNAL_INSTRUMENT_CLUSTER_OS_PATH/package/python-lgpio/Config.in"
+source "$BR2_EXTERNAL_INSTRUMENT_CLUSTER_OS_PATH/package/python-rpi-lgpio/Config.in"
+source "$BR2_EXTERNAL_INSTRUMENT_CLUSTER_OS_PATH/package/lg/Config.in"

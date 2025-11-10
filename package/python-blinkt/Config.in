@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_BLINKT
+    bool "python-blinkt"
+    depends on BR2_PACKAGE_PYTHON3
+    help
+      Eight super-bright RGB LED indicators, ideal for adding
+      visual notifications to your Raspberry Pi on their own
+      or on a pHAT stacking header.
+      https://github.com/pimoroni/blinkt

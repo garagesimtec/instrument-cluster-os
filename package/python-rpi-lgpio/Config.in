@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_RPI_LGPIO
+	bool "python-rpi-lgpio"
+	# Pure Python, but only useful if lgpio is present
+	select BR2_PACKAGE_PYTHON_LGPIO
+	help
+	  A compatibility shim that provides the RPi.GPIO API on top of lgpio.
+	  Useful on Raspberry Pi 5 (gpiochip) systems.
+	  https://rpi-lgpio.readthedocs.io/
