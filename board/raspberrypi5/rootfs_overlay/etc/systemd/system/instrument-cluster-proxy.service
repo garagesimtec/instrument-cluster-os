@@ -12,7 +12,7 @@ WorkingDirectory=/opt/granturismo
 # Pass PS5 IP from env file (created by your installer) or from your config
 EnvironmentFile=-/etc/default/instrument-cluster-proxy
 Environment=GT_JSONL_OUTPUT=udp://127.0.0.1:5600
-ExecStart=/usr/bin/python3 /opt/granturismo/proxy-wrapper.py --jsonl-output ${GT_JSONL_OUTPUT} --ps-ip ${GT_PS_IP}
+ExecStart=/usr/bin/python3 /opt/granturismo/proxy-wrapper.py --jsonl-output ${GT_JSONL_OUTPUT} --ps-ip ${GT_PS_IP} --get-latest-timeout ${GET_LATEST_TIMEOUT}
 Restart=on-failure
 RestartSec=1
 

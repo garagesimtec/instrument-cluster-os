@@ -5,5 +5,8 @@ GT_PS_IP=
 # Where to publish plain telemetry (the dashboard listens here)
 GT_JSONL_OUTPUT=udp://127.0.0.1:5600
 
+# Wait in seconds for at least one packet
+GET_LATEST_TIMEOUT=0.02
+
 # Helpful on some minimal images
 SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
